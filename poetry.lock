@@ -1,0 +1,64 @@
+[[package]]
+name = "game"
+version = "0.0.5"
+description = "A web game emulator, not only can play games. Welcome to explore."
+category = "main"
+optional = false
+python-versions = ">=3.3.0"
+
+[[package]]
+name = "game24"
+version = "1.0.1"
+description = "A console application to play the 24 game"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "state-lookup"
+version = "0.2.2"
+description = "Find the state in which the city is"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
+name = "state-neighbors"
+version = "0.1.2"
+description = "Small helper package that allnput and returns a dictionary of all the states that neighbor it."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "tes-game"
+version = "2.0.0"
+description = "fantasy tut game"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = ">=3.8.0,<3.9"
+content-hash = "351f9a88492f041b66b76c16a1cd31c053793019f6247a1c308c8b2d20e2ff1b"
+
+[metadata.files]
+game = [
+    {file = "game-0.0.5-py3-none-any.whl", hash = "sha256:5321eead4e11f0b94620eb777ce296dcf01cd73aafdc4c63300003a8909ce45a"},
+    {file = "game-0.0.5.tar.gz", hash = "sha256:c5bbcbc4885bec3fa257e4b73821412b29a99a995fd96b51be3f5d9421854b3e"},
+]
+game24 = [
+    {file = "game24-1.0.1.tar.gz", hash = "sha256:d223547d154f835e6a4cd80531979566ddd69a7846810481defd8a7bb5663939"},
+]
+state-lookup = [
+    {file = "state_lookup-0.2.2-py3-none-any.whl", hash = "sha256:93763c5f9d35fb1f15831c35aea3977f6ecaa15e04dc4edd889d7d3cfaa638d1"},
+    {file = "state_lookup-0.2.2.tar.gz", hash = "sha256:0c8b2b283ec1d2993f0cc1b43115f06deb5a6b672f643f228936de9f672fae79"},
+]
+state-neighbors = [
+    {file = "state_neighbors-0.1.2-py2.py3-none-any.whl", hash = "sha256:e1dd6880d4921a529979c67b1707821d1ff52652eb37c9677092e7c1660a8d82"},
+    {file = "state_neighbors-0.1.2.tar.gz", hash = "sha256:ed8b19930e4f47078481441147f610ef0e3d14b68aa376b87d12250fc5560df9"},
+]
+tes-game = [
+    {file = "tes_game-2.0.0.tar.gz", hash = "sha256:3095cab2dd0b07ae2685396d9efd720c9761605a447bacec3d58cd9c1b4d3262"},
+]
